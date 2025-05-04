@@ -1,0 +1,9 @@
+print('\n\t\t --- Calculadora de Tempo: Transforma Dias em Anos, Meses e Dias (Aproximado) --- \n')
+
+n=int(input('Dias:'))
+ano = n // 365
+mes = (n % 365) // 30
+dia = (n % 30) / 2
+print(f'{ano:.0f} ano(s)')
+print(f'{mes:.0f} mes(es)')
+print(f'{dia:.0f} dia(s)') 
